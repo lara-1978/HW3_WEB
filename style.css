@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #fff;
+}
+
+image {
+    max-width: 100%;
+    display: block;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 39px 0;
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 40px;
+    margin-bottom: 84px;
+}
+
+.nav-logo {
+    width: 137px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.nav-link {
+    font-family: "Gilroy-SemiBold", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+}
+
+.nav-link1 {
+    font-family: "Gilroy-SemiBold", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #f25822;
+}
+
+.container {
+    max-width: 1171.73px;
+    margin: 0 auto;
+}
+
+.main-content {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 522px;
+}
+
+.content-pict {
+    width: 544px;
+    height: 374px;
+    margin-top: 164px;
+}
+
+.content-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 60px;
+    color: #000;
+    width: 522px;
+    height: 222px;
+    margin-bottom: 17px;
+}
+
+.content-text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #888;
+    width: 466px;
+    height: 48px;
+    margin-bottom: 37px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.action-box {
+    display: flex;
+    gap: 72px;
+    align-items: center;
+    margin-bottom: 37px;
+}
+
+.content-btn {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+    background: #f25822;
+    border-radius: 50px;
+    width: 140px;
+    height: 50px;
+    padding: 10px 20px;
+
+}
+
+
+.watch-video {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    color: #aaa;
+}
+
+.footer {
+    margin-top: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 48px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    width: 100%;
+    max-width: 800px;
+    padding-bottom: 48px;
+}
